@@ -54,7 +54,7 @@
         <!--Servicios-->
         <scene sceneID="OcZ-xh-NOB">
             <objects>
-                <viewController id="7FA-3P-fQM" customClass="ViewController" customModule="Meyaj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7FA-3P-fQM" customClass="ViewController" customModule="Meyaj_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f3x-bZ-L0p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -442,7 +442,7 @@
         <scene sceneID="RXa-z4-wgA">
             <objects>
                 <viewController id="pLH-Pb-nbZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4oL-kR-kQG" customClass="GradientView" customModule="Meyaj" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="4oL-kR-kQG" customClass="GradientView" customModule="Meyaj_iOS" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -489,7 +489,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvp-Lz-2jk" customClass="GradientView" customModule="Meyaj" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvp-Lz-2jk" customClass="GradientView" customModule="Meyaj_iOS" customModuleProvider="target">
                                 <rect key="frame" x="16" y="420" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.43137254899999999" green="0.68627450980000004" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -585,7 +585,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU8-TI-fcE" customClass="GradientView" customModule="Meyaj" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU8-TI-fcE" customClass="GradientView" customModule="Meyaj_iOS" customModuleProvider="target">
                                 <rect key="frame" x="107" y="523" width="160" height="56"/>
                                 <color key="backgroundColor" red="0.43137254899999999" green="0.68627450980000004" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -660,7 +660,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="qVc-jq-n6t">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FDO-TN-i1v" sceneMemberID="firstResponder"/>
                 <tabBarController id="Ofb-SG-AOA" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="A5e-Zu-I06">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -675,6 +674,7 @@
                         <segue destination="fAI-3W-Lag" kind="relationship" relationship="viewControllers" id="f9r-QL-7Iv"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDO-TN-i1v" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
