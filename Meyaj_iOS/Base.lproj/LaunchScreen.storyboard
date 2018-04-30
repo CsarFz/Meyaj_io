@@ -1,25 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lkt-D0-GxH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="eFQ-HB-kWl">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                <viewController id="lkt-D0-GxH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9zo-7R-1sE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portada" translatesAutoresizingMaskIntoConstraints="NO" id="qh5-Oo-N8y">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meyaj_logo" translatesAutoresizingMaskIntoConstraints="NO" id="D85-kD-EuH">
+                                <rect key="frame" x="67" y="141" width="240" height="336"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="D85-kD-EuH" firstAttribute="leading" secondItem="Vk1-mL-NdT" secondAttribute="leading" constant="67" id="0XJ-1C-ZCQ"/>
+                            <constraint firstItem="qh5-Oo-N8y" firstAttribute="bottom" secondItem="Vk1-mL-NdT" secondAttribute="bottom" id="0hG-1D-oc8"/>
+                            <constraint firstItem="qh5-Oo-N8y" firstAttribute="top" secondItem="Vk1-mL-NdT" secondAttribute="top" id="86b-PP-Mak"/>
+                            <constraint firstItem="Vk1-mL-NdT" firstAttribute="trailing" secondItem="D85-kD-EuH" secondAttribute="trailing" constant="68" id="F17-Z4-1vk"/>
+                            <constraint firstItem="D85-kD-EuH" firstAttribute="top" secondItem="Vk1-mL-NdT" secondAttribute="top" constant="121" id="GBO-U8-ANf"/>
+                            <constraint firstItem="Vk1-mL-NdT" firstAttribute="bottom" secondItem="D85-kD-EuH" secondAttribute="bottom" constant="190" id="Rir-QH-sz4"/>
+                            <constraint firstItem="qh5-Oo-N8y" firstAttribute="trailing" secondItem="Vk1-mL-NdT" secondAttribute="trailing" id="U02-0F-6VE"/>
+                            <constraint firstItem="D85-kD-EuH" firstAttribute="centerX" secondItem="9zo-7R-1sE" secondAttribute="centerX" id="Yco-Wb-5am"/>
+                            <constraint firstItem="qh5-Oo-N8y" firstAttribute="leading" secondItem="Vk1-mL-NdT" secondAttribute="leading" id="sxN-hO-DV3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vk1-mL-NdT"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bih-oj-vVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-330" y="309"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="meyaj_logo" width="1080" height="1080"/>
+        <image name="portada" width="750" height="1334"/>
+    </resources>
 </document>
